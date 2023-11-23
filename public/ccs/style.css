@@ -1,0 +1,162 @@
+/* ESTILOS GENERALES */
+:root {
+    --primario: #FD7E07;
+    --secundario: #14213D;
+    --negro: #111111;
+    --blanco: #FCFCFC;
+    --gris: #E5E5E5;
+    --resalto: #fb5000;
+    --error: #fd0707;
+  }
+
+* {
+    box-sizing: border-box; /*Sirve para resetear todos los bordes de la web y que tengan la misma especificación*/
+}
+
+
+.m-color {
+    color: var(--primario);
+}
+
+body {
+    font-family: "inter", sans-serif;
+    color: var(--negro);
+    background-color: var(--gris);
+    margin: 0;
+
+}
+
+.wrap {
+    max-width: 1080px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+main {
+    background-color: var(--gris);
+    margin: 0 auto;
+}
+
+.jumbotron {
+background-image: url(/img/Gente4.jpg);
+background-size: cover;
+background-position: center center;
+padding: 112px 0 80px 0;
+color: var(--blanco);
+}
+
+
+main #h1-index {
+    color: var(--blanco);
+    font-weight: 900;
+    font-size: 4.5rem;
+    text-shadow: 2px 2px 4px var(--negro);
+}
+
+/* Hasta aquí todo bien*/
+
+
+main .h4 {
+    font-style: italic;
+    margin: 0 16px 32px 16px;
+    color: var(--blanco);
+}
+
+p {
+    margin-bottom: 1rem;
+}
+    
+h1, h2, h3, h4, h5, H6 { /* AGREGO ESTILO A TODOS LOS H DE LA WEB */
+    color: var(--negro);
+    margin: 3rem 0 1.38rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 3.052rem;
+}
+    
+h2 {font-size: 2.441rem;}
+    
+h3 {font-size: 1.953rem;}
+    
+h4 {font-size: 1.563rem;}
+    
+h5 {font-size: 1.25rem;}
+
+h6 {font-size: 1rem;}
+    
+small, .text_small {font-size: 0.8rem;}
+
+
+/* CLASES INTELIGENTES PARA REUTILIZAR LOS H Y NO UTILIZAR LA PROPIA ETIQUETA H */
+
+.h1 {
+    margin-top: 0;
+    font-size: 3.052rem;
+}
+  
+.h2 {font-size: 2.441rem;}
+  
+.h3 {font-size: 1.953rem;}
+  
+.h4 {font-size: 1.563rem;}
+  
+.h5 {font-size: 1.25rem;}
+  
+.h6 {font-size: 1rem;}
+
+/* Cambia el color del marcador de posición en campos de entrada (placeholder) */
+
+input::placeholder {
+    color: var(--primario); 
+}
+
+
+/*ESTILOS PARA SECION TESTIMONIO*/
+
+.contenedor-testimonio {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--gris);
+    padding: 32px 80px;
+    margin: 32px auto;
+}
+
+.testimonio-global {
+    border: 1px solid var(--secundario);
+    border-radius: 8px;
+    padding: 16px;
+    background-color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+    max-width: 560px;
+    min-width: 360px;
+   
+}
+
+.testimonio {
+    padding: 16px auto;
+}
+
+.cita-testimonio {
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 32px;
+    border: none;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+  
+  

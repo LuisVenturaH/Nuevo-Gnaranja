@@ -1,0 +1,45 @@
+.botones-header {
+display: flex;
+align-items: center;
+gap: 32px;
+}
+
+.botones-header button {
+    background-color: var(--negro);
+    border: 1px solid var(--gris) ;
+    
+}
+
+.botones-header button a {
+    color: var(--gris);
+}
+
+.botones-header i {
+    color: var(--gris);
+    font-size: 1.5rem;
+   }
+
+.bi-check2-circle, .bi-credit-card-2-back {
+    margin-right: 16px;
+}
+
+.header-secundario .h2 {
+    color: var(--blanco);
+    align-items: center;
+    padding: 16px;
+    font-size: 5rem;
+}
+
+.header-secundario .btn {
+    background-color: var(--secundario);
+}
+
+.cart-contenedor-principal {
+    display: flex;
+    flex-direction: row;
+}
+
+.cart-contenedor-producto {
+    display: flex;
+    
+}
